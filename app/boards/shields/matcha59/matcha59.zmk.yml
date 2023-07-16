@@ -1,0 +1,10 @@
+file_format: "1"
+id: matcha59
+name: Matcha59
+type: shield
+url: https://www.thingiverse.com/thing:4850429
+requires: [pro_micro]
+exposes: [i2c_oled]
+features:
+  - keys
+  - encoder

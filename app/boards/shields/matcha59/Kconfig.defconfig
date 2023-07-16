@@ -1,0 +1,6 @@
+if SHIELD_MATCHA59
+
+config ZMK_KEYBOARD_NAME
+    default "Matcha59"
+
+endif
