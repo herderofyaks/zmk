@@ -7,14 +7,15 @@
 
         default_layer {
 // ----------------------------------------------------------------------------------------------------
-// |  Esc   |  F1   |  F2   |  F3   |  F4   |  F5   |  F6   |  F7   |  F8   |  F9   |  F10   | RST    |
-// |  +/=   |   1   |   2   |   3   |   4   |   5   |   6   |   7   |   8   |   9   |   0    | -/_    |
-// |  TAB   |   Q   |   W   |   E   |   R   |   T   |   Y   |   U   |   I   |   O   |   P    | :/\    |
-// |  CAPS  |   A   |   S   |   D   |   F   |   G   |   H   |   J   |   K   |   L   |   ;    | '/"    |
+// |  Esc   |   1   |   2   |   3   |   4   |   5   |   6   |   7   |   8   |   9   |   10   |    =   |
+// |  TAB   |   Q   |   W   |   E   |   R   |   T   |   Y   |   U   |   I   |   O   |   P    |    -   |
+// |  CTRL  |   A   |   S   |   D   |   F   |   G   |   H   |   J   |   K   |   L   |   ;    |   '/"  |
 // | LSHIFT |   Z   |   X   |   C   |   V   |   B   |   N   |   M   |   ,   |   .   |   /    | RSHIFT |
+// | BACKSP |  LALT |  INS  | HOME  |  SPACE    |  MUTE  |  Enter   | LGUI  |  RGUI |   [    |   ]    |
+// ----------------------------------------------------------------------------------------------------
 
             bindings = <
-    &kp Esc    &kp N1    &kp N2   &kp N3    &kp N4    &kp N5    &kp N6    &kp N7   &kp N8    &kp N9    &kp N0    &kp EQUAL
+    &kp ESC    &kp N1    &kp N2   &kp N3    &kp N4    &kp N5    &kp N6    &kp N7   &kp N8    &kp N9    &kp N0    &kp EQUAL
     &kp TAB    &kp Q     &kp W    &kp E     &kp R     &kp T     &kp Y     &kp U    &kp I     &kp O     &kp P     &kp MINUS
     &kp LCTRL  &kp A     &kp S    &kp D     &kp F     &kp G     &kp H     &kp J    &kp K     &kp L     &kp SEMI  &kp SQT
     &kp LSHFT  &kp Z     &kp X    &kp C     &kp V     &kp B     &kp N     &kp M    &kp COMMA &kp DOT   &kp FSLH  &kp RSHFT
