@@ -7,3 +7,5 @@
 /build
 *.DS_Store
 __pycache__
+app/boards/shields/Kconfig.shield.old
+app/boards/shields/Kconfig.defconfig.old
