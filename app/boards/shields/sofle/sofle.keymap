@@ -76,10 +76,10 @@
 // |     | UNDO | CUT  | COPY  | PASTE |      |      |  |      |      |      |       |      |       |       |
 //              |      |       |       |      |      |  |      |      |      |       |      |
             bindings = <
-&bt BT_CLR &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4             &trans    &trans    &trans   &trans    &trans  &none
-&trans   &trans      &kp PSCRN   &trans      &trans      &trans                                  &kp PG_UP   &kp HOME    &kp UP      &kp END     &trans      &trans
-&trans      &trans      &trans      &trans      &trans      &trans                                  &kp PG_DN   &kp LEFT    &kp DOWN    &kp RIGHT   &trans      &trans
-&trans      &trans      &trans      &trans      &trans      &trans      &trans      &kp PRINTSCREEN &trans      &trans      &trans      &trans      &trans      &trans
+&bt BT_CLR  &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4             &trans    &trans    &trans   &trans    &trans  &none
+&trans      &trans      &kp PSCRN   &trans      &trans      &trans                                  &kp PG_UP   &kp HOME    &kp UP      &kp END     &trans      &ext_power EP_ON
+&trans      &trans      &trans      &trans      &trans      &trans                                  &kp PG_DN   &kp LEFT    &kp DOWN    &kp RIGHT   &trans      &ext_power EP_OFF
+&trans      &trans      &trans      &trans      &trans      &trans      &trans      &kp PRINTSCREEN &trans      &trans      &trans      &trans      &trans      &ext_power EP_TOG
                         &trans      &trans      &trans      &kp DELETE  &trans      &trans          &trans      &trans      &trans      &trans      
             >;
 
